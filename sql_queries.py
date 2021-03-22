@@ -22,7 +22,7 @@ song_table_create = "CREATE TABLE IF NOT EXISTS songs (song_id varchar(50) PRIMA
 artist_table_create = "CREATE TABLE IF NOT EXISTS artists (artist_id varchar(50) PRIMARY KEY NOT NULL, name  varchar(100), location varchar(100), latitude varchar(100), longitude varchar(100))"
 
 #start_time, hour, day, week, month, year, weekday
-time_table_create = "CREATE TABLE IF NOT EXISTS time (start_time timestamp PRIMARY KEY NOT NULL, hour numeric, day numeric, week numeric, month numeric, year numeric, weekday numeric) ON CONFLICT DO NOTHING"
+time_table_create = "CREATE TABLE IF NOT EXISTS time (start_time timestamp PRIMARY KEY NOT NULL, hour numeric, day numeric, week numeric, month numeric, year numeric, weekday numeric)"
 
 # INSERT RECORDS
 
